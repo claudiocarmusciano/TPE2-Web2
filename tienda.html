@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tecnogaming</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="images/NuevoEncabezado.png" alt="logo">
+        <div class="redes">
+            <a href="https://www.facebook.com/tecnopolisolavarria"> <img src="images/LogoFacebook.png" alt=""></a>
+            <a href="https://www.instagram.com/tecnopolisolavarria/"> <img src="images/LogoInstagram.png" alt=""></a>
+            <a href="https://www.youtube.com"><img src="images/LogoYoutube.png" alt=""></a>
+        </div>  
+    </header>
+
+    <nav>
+        <div class="menu">
+            <div class="btn-menu"><a><img class="btn-hamburguesa" src="images/btn-hamburguesa.png" alt=""> </a></div>
+                <ul class="navigation">
+                    <li><a class="show" href="index.html">Home</a></li>
+                    <li><a class="show" href="tienda.html">TIENDA</a></li>
+                    <li><a class="show" href="PcGamers.html">PC Gamers</a></li>
+                    <li><a class="show" href="Notebooks.html">Notebooks</a></li>
+                    <li><a class="show" href="Accesorios.html">Accesorios</a></li>
+                    <li><a class="show" href="Monitores.html">Monitores</a></li>                    <li><a class="show" href="contacto.html">Contacto</a></li>
+                    <li><a class="show" href="registro.html">Registro</a></li>
+                </ul>
+          </div>  
+    </nav>
+
+    <article class="carrito">
+        <section class="sectionTablaCarrito">
+            <table id="tabla-carrito" class="tabla-carrito">        
+                <thead>
+                    <tr>
+                        <th class="th-articulo">Artículo</th>
+                        <th class="th-cantidad">Cant.</th>
+                        <th class="th-precio">Precio unit.</th>
+                        <th class="th-total">Precio total</th>
+                        <th class="th-borrar">Borrar</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+
+        <section class="sectionEspacio">
+            <div>
+                <br>
+                <br>
+                <br>
+            </div>
+        </section>
+
+        <section class="sectionItemsCarrito">
+            <form>
+                <select id="select-articulo">
+                    <option>Seleccione un artículo</option>
+                </select>
+
+                <p>Cantidad: <input type="number" id="cantArticulo" value=1> </p>
+            </form>
+            <div class="botonesCarrito">
+                <button class="btn-agregar" id="btn-agregar">Agregar</button>
+                <button class="btn-combo" id="btn-combo">Combo OFERTA!!</button>
+                <button class="btn-limpiarCarrito" id="btn-limpiarCarrito">Limpiar Carrito</button>
+            </div>
+            
+        </section>
+        
+
+    </article>
+
+    <footer class="footer">
+        <p>TECNOGAMING Olavarría</p>
+        <p>General Paz 2678 - (7400) Olavarría</p>
+        <p>Teléfono 02284-411600 // Cel. 02284-15324444</p> <br>
+        <p>Desarrollado por Juan Carlos Vena y Claudio Carmusciano</p>
+        <p>Copyright &copy; 2021</p>
+    </footer>
+    <script src="js/carrito.js"></script>
+</body>
+</html>

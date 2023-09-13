@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tecnogaming</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="images/NuevoEncabezado.png" alt="logo">
+        <div class="redes">
+            <a href="https://www.facebook.com/tecnopolisolavarria"> <img src="images/LogoFacebook.png" alt=""></a>
+            <a href="https://www.instagram.com/tecnopolisolavarria/"> <img src="images/LogoInstagram.png" alt=""></a>
+            <a href="https://www.youtube.com"><img src="images/LogoYoutube.png" alt=""></a>
+        </div>  
+    </header>
+
+    <nav>
+        <div class="menu">
+            <div class="btn-menu"><a><img class="btn-hamburguesa" src="images/btn-hamburguesa.png" alt=""> </a></div>
+                <ul class="navigation">
+                    <li><a class="show" href="index.html">Home</a></li>
+                    <li><a class="show" href="tienda.html">TIENDA</a></li>
+                    <li><a class="show" href="PcGamers.html">PC Gamers</a></li>
+                    <li><a class="show" href="Notebooks.html">Notebooks</a></li>
+                    <li><a class="show" href="Accesorios.html">Accesorios</a></li>
+                    <li><a class="show" href="Monitores.html">Monitores</a></li>                    <li><a class="show" href="contacto.html">Contacto</a></li>
+                    <li><a class="show" href="registro.html">Registro</a></li>
+                </ul>
+          </div>  
+    </nav>
+
+    <section class="cuerpoRegistro">
+        <form class="registro">
+            <h3>Formulario de Registro</h3>
+            <input class="controles" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required>
+            <input class="controles" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido" required>
+            <input class="controles" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+            <input class="controles" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña" required>
+            <input class="controles" type="password" name="contraseña2" id="contraseña2" placeholder="Confirme su Contraseña" required>
+            <div class="captcha">
+                <div>
+                    <label for="captcha">Ingrese el resultado de: 12+12</label>
+                    <input type="text" id="captcha" name="resultado" value=""/>
+                </div>
+                <div>
+                    <button id="botonValidar">Validar</button>
+                </div>
+            </div>
+            <div class="botonYError">
+                <div class="botonRegistro">
+                    <button id="botonRegistro" disabled>REGISTRAR</button>
+                </div>
+                <div class="errorCaptcha">
+                    <p id="mensajeCaptcha">
+
+                    </p>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>TECNOGAMING Olavarría</p>
+        <p>General Paz 2678 - (7400) Olavarría</p>
+        <p>Teléfono 02284-411600 // Cel. 02284-15324444</p> <br>
+        <p>Desarrollado por Juan Carlos Vena y Claudio Carmusciano</p>
+        <p>Copyright &copy; 2021</p>
+    </footer>
+    <script type="text/javascript" src="js/registro.js"></script>
+</body>
+</html>
+

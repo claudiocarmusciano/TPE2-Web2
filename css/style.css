@@ -1,0 +1,432 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* padding: 50% 2%;  */
+}
+
+article {
+    text-align: justify;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width:75%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.menu {
+    background-color: gray;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul.navigation {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    flex-direction: column;
+}
+
+.redes {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.redes img {
+    width: 35%;
+    height: 100%;
+    margin: 10px;
+    align-content: center;
+    /* display: flex; */
+    
+}
+
+.btn-hamburguesa {
+    width: 10%;
+}
+
+ul.navigation {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    display: none;
+}
+
+ul.navigation.show {
+    display: flex;
+}
+
+ul.navigation li {
+    list-style: none;
+    margin: 0px 0px;
+    padding: 5px 20px;
+}
+
+ul.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.navigation li:hover {
+    background-color: rgb(173, 106, 168);
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.article h1 a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+    text-decoration: none;
+    color: black;
+}
+
+.PcGamers, .Notebooks, .Accesorios, .Monitores {
+    width: 330px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+.PcGamers {
+    background-image: url(../images/PcGamer.jpg);
+    
+}
+
+.Notebooks {
+    
+    background-image: url(../images/Notebook.jpg);
+   
+}
+
+.Accesorios {
+    background-image: url(../images/Accesorios.jpg);
+   
+}
+
+.Monitores {
+    background-image: url(../images/Monitores.jpg);
+    
+}
+
+.footer {
+    background-color: rgb(41, 38, 38);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.footer p {
+    line-height: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor-imagenes img {
+    width: 95%;
+    margin: 5px;
+}
+
+.cuerpoContacto h2 {
+    color: blueviolet;
+}
+
+.cuerpoContacto {
+    text-align: center;
+}
+
+.redes-contacto {
+    flex-direction: row;
+}
+
+.redes-contacto img {
+    width: 10%;
+    margin: 10px;
+}
+
+.contenedorAccesorios{
+    display: flex;
+    flex-direction: column;
+}
+
+    
+.basicosAccesorios{
+    width: 95%;
+    margin-left: 15px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+.imagen {
+    width: 80%;
+    height: 100%;
+}
+
+.imgPcGamer, .imgNotebook{
+    text-align: center;
+}
+
+.tituloeimagen{
+    width: 100%;
+    text-align: justify;
+    margin-right: 5px;
+}
+
+.imagenesVariasMonitores{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.imagenesVariasMonitores img {
+    width: 30%;
+    height: 100%;
+}
+
+.basicosAccesorios h4 span{
+    color:whitesmoke;
+    background-color: rgb(66, 75, 69);
+}
+
+
+.contenedorinfomonitores{
+    display: flex;
+    display: block;
+}
+
+.tabladeprecios {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.tabladeprecios img {
+    width: 100%;
+    height: 100%;
+}
+
+.tablaMonitores{
+    background-color: rgb(78, 78, 82);
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+}
+
+.tablaMonitores tr td{
+    border: 1px solid rgb(183, 204, 204);
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.tablaMonitores thead {
+    background-color: black;
+    text-align: center;
+
+}
+
+.tablaMonitores thead tr th {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+.tablaMonitores .marca {
+    width: 30%;
+}
+
+.tablaMonitores .modelo {
+    width: 20%;
+}
+
+.tablaMonitores .pulgadas {
+    width: 20%;
+}
+
+.tablaMonitores .precio {
+    width: 30%;
+}
+
+table, td, tr{
+    border: 1px solid rgb(183, 204, 204);
+    border-collapse: collapse;
+}
+
+.registro{
+    background-color: rgb(14, 14, 20);
+    padding: 50px;
+    font-family: sans-serif ;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+.registro.h3{
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.botonRegistro {
+    align-items: center;
+}
+
+.botonYError {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.controles{
+    background-color: rgb(137, 160, 182);
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: serif;
+}
+
+.captcha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito th {
+        background-color: #4a78ac;
+        color: white;
+        margin: 10px;
+        padding: 5px;
+}
+
+.tabla-carrito thead tr th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.tabla-carrito {
+    width: 100%;
+}
+
+.tabla-carrito .th-articulo {
+    width: 40%;
+} 
+
+.tabla-carrito .th-cantidad {
+    width: 20%;
+} 
+
+.tabla-carrito .th-precio {
+    width: 20%;
+} 
+
+.tabla-carrito .th-total {
+    width: 20%;
+} 
+
+.tabla-carrito td {
+    text-align: center;
+}
+
+.sectionItemsCarrito {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.botonesCarrito button {
+    height: 40px;
+    width: 25%;
+    margin: 5px;
+}
+
+.botonesCarrito {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-combo {
+    background-color: rgb(115, 211, 115);
+}
+
+#cantArticulo {
+    width: 3em;
+}
+
+@media screen and (min-width: 728px){
+
+    .btn_hamburguesa, .btn-menu {
+        display: none;
+    }
+
+    ul.navigation {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    ul.navigation li {
+        margin: 0px 0px;
+        padding: 10px 5px;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .redes img {
+        width: 60%;
+        margin-right: 10px;
+        align-items: center;
+    }
+    
+    .article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn-agregar, .btn-combo, .btn-limpiarCarrito {
+        height: 50px;
+        width: 25%;
+        margin: 10px;
+    }
+
+    .contenedorAccesorios{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sectionItemsCarrito {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .botonesCarrito button {
+        width: 150px;
+        margin: 10px;
+    }
+}
+
+
